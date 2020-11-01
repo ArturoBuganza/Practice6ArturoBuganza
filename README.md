@@ -77,10 +77,14 @@ void portsInit( void );
 ![Figure 3](./img/fig3.png)
 
 ### Report
-For this practice, add to the Result Section the following:
-    - image of the BUILD SUCCESSFUL window.
-    - image of each modified register for the portInit() function when you debug the code step by step. TIP: Put a breakpoint at the first line of the porInit( ) function and open the IO window (Window → Debugging → IO View). Also, modify the Conclusions Section and your names at the top of the document.
-    - image of the connections between the Curiositiy board and  your  minimum  card  system (Proteus).  The  image must contain a short description, and a footnote.
+For this practice, add to the Result Section the following:<br/>
+    - image of the BUILD SUCCESSFUL window.<br/>
+    ![Figure 4](./img/fig4.png)
+    - image of each modified register for the portInit() function when you debug the code step by step. TIP: Put a breakpoint at the first line of the porInit( ) function and open the IO window (Window → Debugging → IO View). Also, modify the Conclusions Section and your names at the top of the document.<br/>
+    ![Figure 5](./img/fig5.png)
+    ![Figure 6](./img/fig6.png)
+    - image of the connections between the Curiositiy board and  your  minimum  card  system (Proteus).  The  image must contain a short description, and a footnote.<br/>
+    **PENDING BECAUSE OF PROTEUS LICENCE ISUES**<br/>
     - description of the problems found and solutions.
 
 ### File uploads
@@ -88,7 +92,7 @@ Commit and push the file main.c created once you completed all the steps of the 
 
 ### Demonstration
 Record a video of the practice’s functionality and upload it on youtube. The video must contain a short explanation.
-
+https://youtu.be/Zc-aFfy-3X0
 ## Conclusion
 
 In this section, you should add the conclusions, suggestions, and/or problems of the laboratory activities. Each team member must add his/her own conclusion (5 lines as minimum for each member).
