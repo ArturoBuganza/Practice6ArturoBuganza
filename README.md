@@ -79,19 +79,20 @@ void portsInit( void );
 ### Report
 For this practice, add to the Result Section the following:<br/>
     - image of the BUILD SUCCESSFUL window.<br/>
-    ![Figure 4](./img/fig4.PNG)
+    ![Figure 4](./img/fig4.PNG)<br/><br/>
     - image of each modified register for the portInit() function when you debug the code step by step. TIP: Put a breakpoint at the first line of the porInit( ) function and open the IO window (Window → Debugging → IO View). Also, modify the Conclusions Section and your names at the top of the document.<br/>
-    ![Figure 5](./img/fig5.PNG)
-    ![Figure 6](./img/fig6.PNG)
+    ![Figure 5](./img/fig5.PNG)<br/>
+    ![Figure 6](./img/fig6.PNG)<br/>
     - image of the connections between the Curiositiy board and  your  minimum  card  system (Proteus).  The  image must contain a short description, and a footnote.<br/>
-    **PENDING BECAUSE OF PROTEUS LICENCE ISUES**<br/>
-    - description of the problems found and solutions.
-
+    **PENDING BECAUSE OF PROTEUS LICENCE ISUES**<br/><br/>
+    - description of the problems found and solutions.<br/>
+The only modification done to the code was to add the random number generator, in which it generated a random number then asigned it to the bit in the byte chain of the port B (working as an output) to turn on the randomly selected LED (from 1-8) for 500 ms, for then evaluating if the correct button was pressed.<br/>
+    ![Figure 7](./img/fig7.PNG)<br/>
 ### File uploads
 Commit and push the file main.c created once you completed all the steps of the document in the repository.
 
 ### Demonstration
-Record a video of the practice’s functionality and upload it on youtube. The video must contain a short explanation.
+Record a video of the practice’s functionality and upload it on youtube. The video must contain a short explanation.<br/>
 https://youtu.be/Zc-aFfy-3X0
 ## Conclusion
 
