@@ -1,4 +1,5 @@
-# Practice 6. Parallel Ports (GPIOs) by Arturo Buganza
+# Practice 6. Parallel Ports (GPIOs) 
+by Arturo Buganza San Martín A01550821
 
 
 ## Objectives
@@ -87,7 +88,8 @@ For this practice, add to the Result Section the following:<br/>
     **PENDING BECAUSE OF PROTEUS LICENCE ISUES**<br/><br/>
     - description of the problems found and solutions.<br/>
 The only modification done to the code was to add the random number generator, in which it generated a random number then asigned it to the bit in the byte chain of the port B (working as an output) to turn on the randomly selected LED (from 1-8) for 500 ms, for then evaluating if the correct button was pressed.<br/>
-    ![Figure 7](./img/fig7.PNG)<br/>
+    ![Figure 7](./img/fig7.PNG)
+    
 ### File uploads
 Commit and push the file main.c created once you completed all the steps of the document in the repository.
 
@@ -96,4 +98,6 @@ Record a video of the practice’s functionality and upload it on youtube. The v
 https://youtu.be/Zc-aFfy-3X0
 ## Conclusion
 
-In this section, you should add the conclusions, suggestions, and/or problems of the laboratory activities. Each team member must add his/her own conclusion (5 lines as minimum for each member).
+The main problem for this laboratory practice was Proteus software, since that part couldnt be done for licence issues. Excluding that i think the practice was pretty straight forward, since it was very similar to practice #5, the main problem for me it is hard to work on an existing code, because when you generate it from the scratch, it is much easier to know the logical order of thinking, but this being said, I think I finally understand the importance of the lines of comments the profesor adds, they serve as a guide for people from the outside to understand whats going on in each line of code. Same goes with functions, the name of them and a breif description might save other programers the strugle of finding out what each funtion does. 
+
+Arturo Buganza San Martín A01550821
